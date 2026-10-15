@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CIFAR-100",
+    "group": "near",
+    "kind": "cifar100",
+    "root": "data/ood/cifar100"
+  },
+  {
+    "name": "TinyImageNet",
+    "group": "near",
+    "kind": "folder",
+    "root": "data/ood/tinyimagenet"
+  },
+  {
+    "name": "MNIST",
+    "group": "far",
+    "kind": "mnist",
+    "root": "data/ood/mnist"
+  },
+  {
+    "name": "SVHN",
+    "group": "far",
+    "kind": "svhn",
+    "root": "data/ood/svhn"
+  },
+  {
+    "name": "Textures",
+    "group": "far",
+    "kind": "folder",
+    "root": "data/ood/textures"
+  },
+  {
+    "name": "Places365",
+    "group": "far",
+    "kind": "folder",
+    "root": "data/ood/places365"
+  }
+]
